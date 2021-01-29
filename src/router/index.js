@@ -6,16 +6,13 @@ import Menu from '@/views/Menu.vue'
 import OpenStore from '@/views/OpenStore.vue'
 import Setting from '@/views/Setting.vue'
 import Notice from '@/views/Notice.vue'
-import Campaign from '@/views/campaign.vue'
-import Crape from '@/views/crape.vue'
-import Drink from '@/views/drink.vue'
-
 
 Vue.use(VueRouter)
 
+// const eccPath = "/ecc/hisimaru/works/crape";
 const routes = [
   {
-    path: './',
+    path: '/',
     name: 'Home',
     component: Home
   },
@@ -28,20 +25,6 @@ const routes = [
     path: '/Menu',
     name: 'Menu',
     component: Menu,
-    children:[
-      {
-        path: '/Menu',
-        component: Campaign
-      },
-      {
-        path: '/Crape',
-        component: Crape
-      },
-      {
-        path: '/Drink',
-        component: Drink
-      }
-    ]
   },
   {
     path: '/OpenStore',

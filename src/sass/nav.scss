@@ -3,22 +3,31 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 110px;
+    height: 100px;
     position: fixed;
     bottom: 0;
     z-index: 1;
+    margin-bottom: 8px;
 }
 .nav-child{
     font-family: 'Luckiest Guy', cursive;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     text-align: center;
     width: 100%;
-    height: 107px;
+    height: 100px;
     background-color: #F2A2A2;
     display: flex;
     flex-direction: column;
-    svg{
-        margin: 0 auto;
+    border-radius: 40px 40px 0 0;
+    padding-top: 30px;
+    .nav-name{
+        margin-top: 15px;
     }
+    .nav-menu{
+        margin-top: 8px;
+    }
+}
+.nav-child.router-link-exact-active{
+    background-color: #D14220;
 }

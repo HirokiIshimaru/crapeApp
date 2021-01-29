@@ -1,7 +1,7 @@
 <template>
     <section class="home container-fluild"> 
         <div class="card text-white" style="background: #6C4E44; padding: 5px;">
-            <img src="http://click.ecc.ac.jp/ecc/hisimaru/img/about_my_img.73151074.png" class="card-img" alt="...">
+            <img src="@/assets/img-banner-instagram.jpg" class="card-img" alt="...">
             <div class="card-img-overlay">
                 <h5 class="card-title" style="font-size: 12px;">コロナ感染予防のための取り組み</h5>
                 <ul class="corona">

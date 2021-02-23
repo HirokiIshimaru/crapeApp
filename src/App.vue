@@ -26,7 +26,7 @@
       </router-link>
       <router-link to="/AR" class="nav-child" exact @click.native="title('AR')">
         <img src="./assets/ar.svg" alt="ar-icon">
-        <span class="nav-name">AR </span>
+        <span class="nav-name">AR</span>
       </router-link>
     </nav>
   </div>

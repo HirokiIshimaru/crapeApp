@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import AR from '../views/AR.vue'
-import Menu from '../views/Menu.vue'
-import OpenStore from '../views/OpenStore.vue'
-import Setting from '../views/Setting.vue'
-import Notice from '../views/Notice.vue'
+import Home from '@/views/Home.vue'
+import AR from '@/views/AR.vue'
+import Menu from '@/views/Menu.vue'
+import OpenStore from '@/views/OpenStore.vue'
+import Setting from '@/views/Setting.vue'
+import Notice from '@/views/Notice.vue'
 
 Vue.use(VueRouter)
 

@@ -14,4 +14,5 @@ new Vue({
   router,
   store,
   render: h => h(App)
+  ,created: () => (document.documentElement.setAttribute('lang', 'ja')),
 }).$mount('#app')

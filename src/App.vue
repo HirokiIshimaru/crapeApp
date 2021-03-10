@@ -42,7 +42,17 @@ export default {
   methods: {
     title:function(headerTitle){
       this.headerTitle = headerTitle
-    }
+    },
+    createTitleDesc: function(routeInstance){
+      if(routeInstance.meta.title){
+        let setTitle = routeInstance.meta.title;
+        document.title = setTitle;
+      }
+    },
+  },
+  mounted(){
+    let routeInstance = this.$route;
+    this.createTitleDesc(routeInstance);
   }
 }
 </script>

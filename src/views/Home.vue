@@ -84,9 +84,8 @@ section{
 }
 .home {
     width: 100%;
-    height: 100%;
     text-align: center;
-    padding: 0 5%;
+    padding: 50px 0 100px 0;
     .card {
         width: 100%;
         border: none;

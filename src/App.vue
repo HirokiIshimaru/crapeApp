@@ -4,7 +4,7 @@
       <div class="header-box">
         <h1>{{headerTitle}}</h1>
       </div>
-      <router-link to="/Setting" class="setting">
+      <router-link to="Setting" class="setting">
         <img src="@/assets/setting.png" alt="">
       </router-link>
     </header>
@@ -12,19 +12,19 @@
       <router-view/>
     </main>
     <nav>
-      <router-link to="/" class="nav-child" exact @click.native="title('HOME')">
+      <router-link to="./" class="nav-child" exact @click.native="title('HOME')">
         <img src="./assets/home.svg" alt="home-icon">
         <span class="nav-name">HOME</span>
       </router-link>
-      <router-link to="/OpenStore" class="nav-child" exact @click.native="title('SHOP')">
+      <router-link to="OpenStore" class="nav-child" exact @click.native="title('SHOP')">
         <img src="./assets/shop.svg" alt="shop-icon">
         <span class="nav-name">SHOP</span>
       </router-link>
-      <router-link to="/Menu" class="nav-child" exact @click.native="title('MENU')">
+      <router-link to="Menu" class="nav-child" exact @click.native="title('MENU')">
         <img src="./assets/menu.svg" alt="menu-icon">
         <span class="nav-menu">MENU</span>
       </router-link>
-      <router-link to="/AR" class="nav-child" exact @click.native="title('AR')">
+      <router-link to="AR" class="nav-child" exact @click.native="title('AR')">
         <img src="./assets/ar.svg" alt="ar-icon">
         <span class="nav-name">AR</span>
       </router-link>

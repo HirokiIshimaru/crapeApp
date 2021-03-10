@@ -71,7 +71,7 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 50px 5% 120px;
+    padding: 30px 5% 120px;
     background-color: #f4f4f4;
     .title {
         margin-bottom: 10px;

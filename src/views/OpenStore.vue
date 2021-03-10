@@ -2,7 +2,7 @@
     <section class="map">
         <div class="banner">
             <div class="card text-white">
-                <img v-bind:src="aaa.img" class="card-img" height="120" alt="...">
+                <img src="@/assets/img-stroke-small.png" class="card-img" alt="...">
                 <div class="card-img-overlay text-center">
                     <div class="card-title" style="font-size: 16px;">business hours<p style="font-size: 12px;">営業時間</p>11:00 - 18:00</div>
                 </div>
@@ -59,7 +59,7 @@ export default {
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 50px 0 100px 0;
+    padding-bottom: 100px;
     .banner{
         margin: 24px 0;
         .card{
